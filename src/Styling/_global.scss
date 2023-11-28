@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+h1 {
+    color: yellow;
+    font-size: 3rem;
+    // margin: 1rem;
+}

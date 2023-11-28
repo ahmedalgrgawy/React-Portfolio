@@ -1,0 +1,36 @@
+.footer {
+    background-color: rgb(50, 50, 50);
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    p {
+        font-weight: 300;
+        font-size: 17px;
+
+        span {
+            color: yellow;
+            font-weight: 500;
+        }
+    }
+
+    .socialIcons {
+        a {
+            color: white;
+            margin: 0 1rem;
+
+            i {
+                font-size: 17px;
+                transition: 0.3s;
+
+                &:hover {
+                    color: yellow;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
